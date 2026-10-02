@@ -1,0 +1,21 @@
+# Local environment settings; commit the setup templates.
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated output.
+node_modules/
+dist/
+dist-ssr/
+build/
+coverage/
+*.log
+*.tsbuildinfo
+
+# Local tooling and operating system files.
+.agents/
+.claude/
+.codex/
+.idea/
+.DS_Store
+Thumbs.db
